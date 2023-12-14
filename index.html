@@ -1,0 +1,223 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Nunito&family=Palanquin+Dark:wght@500&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>web design project</title>
+</head>
+<style>
+     #logo 
+     {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            max-width: 200px; /* Adjust the size as needed */
+            max-height: 100px; /* Adjust the size as needed */
+     }
+</style>
+<header>
+    <img id="logo" src="./img/uvalogo.jpeg" alt="Logo">
+</header>
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem" style="text-align: center;">
+                <h2>uva</h2>
+            </div>
+            
+        </div>
+        <div class="navBottom">
+            <h2 class="menuItem">Meet The Team</h3>
+            <h2 class="menuItem">Activity 1</h2>
+            <h2 class="menuItem">Activity 2</h2>
+            <h2 class="menuItem">Activity 3</h2>
+            <h2 class="menuItem">Activity 4</h2>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./img/uva4.jpeg" alt="" class="sliderImg" id="firsts">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle"></h1>
+                <h1 class="sliderPrice">This Is Us</h1>
+                <a href="#product">
+                    
+                </a>
+            </div>
+            
+            <div class="sliderItem">
+                <img src="./img/uva1.jpeg" alt="" class="sliderImg" id="jordan">
+                <div class="sliderBg"></div>
+                <h2 class="sliderTitle">Activity 1</h2>
+                <h2 class="sliderPrice"><br>Donation Drive</br></h2>
+                <a href="#product">
+                    
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/uva3.jpeg" alt="" class="sliderImg" id="thirds">
+                <div class="sliderBg"></div>
+                <h2 class="sliderTitle">Activity 2</h2>
+                <h2 class="sliderPrice"></br> Mountain Cleaning</br></h2>
+                <a href="#product">
+                    
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/uva6.jpeg" alt="" class="sliderImg" id="crater">
+                <div class="sliderBg"></div>
+                <h2 class="sliderTitle">Activity 3</h2>
+                <h2 class="sliderPrice">Lake cleaning</h2>
+                <a href="#product">
+                    
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/uva7.jpeg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h2 class="sliderTitle">Activity 4</h2>
+                <h2 class="sliderPrice">Yoga</h2>
+                <a href="#product">
+                </a>
+            </div>
+        </div>
+    </div>
+   
+    <div class="features">
+        <div class="feature">
+            <img src="./img/shipping.avif" alt="" class="featureIcon">
+            <span class="featureTitle">INVOLVE</span>
+            <span class="featureDesc">join us as and experience community service</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/evolve.jpeg" alt="">
+            <span class="featureTitle">EVOLVE</span>
+            <span class="featureDesc">join learn and spread the knowledge</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/gift.jpeg" alt="">
+            <span class="featureTitle">CONNECT</span>
+            <span class="featureDesc">meet people with similar interests as you!</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/contact.jpeg" alt="">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch via email and support system.</span>
+        </div>
+    </div>
+
+    <div class="product" id="product">
+        <img src="./img/aboutus.jpeg" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">ABOUT US</h1>
+            <h2 class="productPrice"></h2>
+            <h3><p class="productDesc">Hi guys we are Niuktha and Mitul we shared similar intentions of connecting people with similar interest and hobbies along with helping society aswell; so we came up with this ngo where anyone is free to join us in trying to make the world a slightly better place, thank you 🙏</p></h3>
+            <button class="productButton">Donations</button>
+        </div>
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="enter your name" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="enter number(only jio sim)" class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="enter address" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img src="./img/visa.png" width="40" alt="" class="cardIcon">
+                <img src="./img/master.png" alt="" width="40" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton">(Please)DONATE!</button>
+            <span class="close">X</span>
+        </div>
+    </div>
+    <style>
+        #features 
+        {
+            text-align: center;
+            margin-top: 10vh; /* Adjust as needed for vertical alignment */
+        }
+    </style>
+    <section id="features">
+        <h2>UPCOMING ACTIVITIES 2024-25</h2>
+    </section>
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Cleaning Our Cities</h1>
+            <img src="./img/cleaning.avif"
+                alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="./img/teaching.png"
+                alt="" class="galleryImg">
+            <h1 class="galleryTitle">Teaching</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Personality Development</h1>
+            <img src="./img/personality.jpeg"
+                alt="" class="galleryImg">
+        </div>
+    </div>
+       
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+               
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="you want to join means put" class="fInput">
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <img src="./img/facebook.png" alt="" class="fIcon">
+                    <img src="./img/twitter.png" alt="" class="fIcon">
+                    <img src="./img/instagram.png" alt="" class="fIcon">
+                    <img src="./img/whatsapp.png" alt="" class="fIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">our website only we didnt copy</span>
+            </div>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
